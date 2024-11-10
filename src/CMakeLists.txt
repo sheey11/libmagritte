@@ -3,5 +3,5 @@ file(GLOB_RECURSE LIBRARY_SOURCES
     "*/*.cpp"
 )
 
-add_library(libmagritte ${LIBRARY_SOURCES})
+add_library(magritte SHARED ${LIBRARY_SOURCES})
 
